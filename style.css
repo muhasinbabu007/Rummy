@@ -14,4 +14,13 @@
     padding: 10px;
     width: 200px;
     margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.deal-animation {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.1s;
 }
